@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git check-ignore *)",
+      "Bash(export PATH=\"/d/ruan jan/C/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin:/d/ruan jan/C/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja:/c/Users/20744/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin:$PATH\")",
+      "Bash(cmake --build --preset Debug)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(\"/d/MX/bin/STM32_Programmer_CLI.exe\" --list)",
+      "Bash(\"/d/MX/bin/STM32_Programmer_CLI.exe\" --help)",
+      "Bash(\"/d/MX/bin/STM32_Programmer_CLI.exe\" -l st-link)",
+      "Bash(\"/d/MX/bin/STM32_Programmer_CLI.exe\" -c port=SWD -w \"d:\\\\NewFolder\\\\F407VET6CCDEMO\\\\build\\\\Debug\\\\F407VET6CCDEMO.elf\" -rst)",
+      "Bash(\"/d/MX/bin/STM32_Programmer_CLI.exe\" -c port=SWD mode=HOTPLUG -coreReg MSP PSP PRIMASK CONTROL)",
+      "Bash(\"/d/MX/bin/STM32_Programmer_CLI.exe\" -c port=SWD -coreReg MSP PSP PRIMASK CONTROL)",
+      "Bash(\"/d/MX/bin/STM32_Programmer_CLI.exe\" -c port=SWD -r32 0x40020800 4 0x40020814 1 0x40023800 4 0x40023808 4)",
+      "Bash(\"/d/MX/bin/STM32_Programmer_CLI.exe\" -c port=SWD -r32 0x40020800 1 -r32 0x40020814 1 -r32 0x40023800 1 -r32 0x40023808 1)",
+      "Bash(\"/d/MX/bin/STM32_Programmer_CLI.exe\" -c port=SWD mode=HOTPLUG -r32 0x40020800 1 -r32 0x40020814 1 -g 0x08000000)",
+      "Bash(\"/d/MX/bin/STM32_Programmer_CLI.exe\" -c port=SWD mode=HOTPLUG -r32 0x40020800 1 -r32 0x40020814 1 -r32 0x40020810 1 -r32 0x40023800 1 -r32 0x40023808 1 -r32 0xE000ED00 1 -r32 0xE0001000 1)",
+      "Bash(\"/d/MX/bin/STM32_Programmer_CLI.exe\" -c port=SWD mode=HOTPLUG -r32 0xE000E010 1 -r32 0xE000E014 1 -r32 0xE000E018 1 -r32 0x40023804 1)",
+      "Bash(git reset *)"
+    ]
+  }
+}
