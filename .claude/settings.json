@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(\"/d/MX/bin/STM32_Programmer_CLI.exe\" -c port=SWD mode=HOTPLUG -r32 0x40020814 1 -r32 0xE000E014 1)"
+    ]
+  }
+}
